@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Harmofy</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header style="background-image: url('../images/header.jpg'); text-align: center; padding: 20px;">
+        <h1>About Harmofy</h1>
+        <p>Discover what makes Harmofy your ultimate music companion.</p>
+    </header>
+
+    <!-- Navigation Section -->
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="registration.html">Register</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main style="padding: 20px;">
+        <h2>What Makes Harmofy Special?</h2>
+        <p>
+            Harmofy is not just another music player. We bring you:
+        </p>
+        <ul>
+            <li>High-quality audio streaming for a superior listening experience.</li>
+            <li>Smart music recommendations tailored to your tastes.</li>
+            <li>Easy-to-use playlist management for your convenience.</li>
+            <li>A vibrant community of music lovers.</li>
+        </ul>
+        <p>Our goal is to revolutionize how you enjoy music, making it seamless, enjoyable, and personal.</p>
+    </main>
+
+    <!-- Footer Section -->
+    <footer style="text-align: center; padding: 10px; background-color: #f1f1f1;">
+        <p>© 2024 Harmofy | <a href="mailto:sed100739@gu.edu.eg">Contact Us</a></p>
+        <p>Follow us: 
+            <a href="#">Facebook</a> | 
+            <a href="#">Twitter</a> | 
+            <a href="#">Instagram</a> |
+            <a href="#">01102641111</a>
+        </p>
+    </footer>
+</body>
+</html>
