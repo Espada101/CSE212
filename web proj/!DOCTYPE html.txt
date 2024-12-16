@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harmofy - Music Player</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header style="background-image: url('images/header.jpg'); text-align: center; padding: 20px;">
+        <h1>Welcome to Harmofy</h1>
+        <p>Your ultimate destination for seamless music playback.</p>
+    </header>
+
+    <!-- Navigation Section -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pages/about.html">About Us</a></li>
+            <li><a href="pages/contact.html">Contact Us</a></li>
+            <li><a href="pages/registration.html">Register</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main style="display: flex;">
+        <!-- Left Column -->
+        <section style="flex: 3; padding: 20px;">
+            <h2>Discover Music</h2>
+            <p>Explore millions of tracks and curate your playlists effortlessly.</p>
+
+            <h3>Features</h3>
+            <ul>
+                <li>High-quality streaming</li>
+                <li>Custom playlists</li>
+                <li>Music recommendations</li>
+            </ul>
+
+            <h3>This week top charts</h3>
+            <table border="1" style="width: 100%; margin-top: 20px;">
+                <tr>
+                    <th>Rank</th>
+                    <th>Song</th>
+                    <th>Artist</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Not like us</td>
+                    <td>Kendrick Lamar</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>kifak enta</td>
+                    <td>Fairuz</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Right Column -->
+        <aside style="flex: 1; padding: 20px;">
+            <h3>Search</h3>
+            <form>
+                <input type="text" placeholder="Search music...">
+                <button type="submit">Search</button>
+            </form>
+
+            <h3>Latest News</h3>
+            <marquee>Check out our new curated playlists for December!</marquee>
+            <h3>
+            <marquee>Checkout the new Harmofy subscription offers</marquee></h3>
+
+            <h3>Advertisements</h3>
+            <p>Premium subscriptions available now!</p>
+        </aside>
+    </main>
+
+    <!-- Footer Section -->
+    <footer style="text-align: center; padding: 10px; background-color: #f1f1f1;">
+        <p>© 2024 Harmofy | <a href="mailto:sed100739@gu.edu.eg">Contact Us</a></p>
+        <p>Follow us: 
+            <a href="#">Facebook</a> | 
+            <a href="#">Twitter</a> | 
+            <a href="#">Instagram</a>
+        </p>
+    </footer>
+</body>
+</html>
